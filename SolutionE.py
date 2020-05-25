@@ -3,8 +3,8 @@ T = int(input())
 came = {}
 for i in range(T):
     c = []
-    c.append(input())
-    c.append(input())
+    c.append(input().lower())
+    c.append(input().lower())
     came[i] = c
 
 for i in came:

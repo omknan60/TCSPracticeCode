@@ -10,6 +10,6 @@ for i in range(q):
         if x == s[a-1]:
             count += 1
     result.append(count)
-print()
+
 for i in result:
     print(i)
